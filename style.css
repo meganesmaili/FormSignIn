@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root
+{
+    --Blanc: #ffffff;
+    --Blancopacity85: rgba(255, 255, 255, 0.85);
+    --Noir: #000000;
+    --Gris: rgb(128, 128, 128);
+    --Grisclair: #cbcbcb;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+/*section
+{
+    width: 60%;
+}*/
+.separtionFormImg
+{
+    display: flex;
+}
+
+.split
+ {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .left {
+    left: 0;
+  }
+  .right {
+    right: 0;
+    background-image:url(imgs/women_book.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .centered
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+    width: 50%;
+  }
+  .centered div h1
+  {
+      font-size: 3em;
+      margin: 0;
+  }
+  .centered div h2
+  {
+      font-weight: lighter;
+      margin: 0;
+  }
+.emailSelect
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.emailSelect input
+{
+    padding: 10px 30px;
+    border: var(--Grisclair) solid;
+    border-radius: 4px;
+}
+.passwordSelect 
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.passwordSelect input
+{
+    padding: 10px 30px;
+    border: var(--Grisclair) solid;
+    border-radius: 4px;
+}
+.signIn
+{
+    background-color: var(--Noir);
+    color: var(--Blanc);
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.signGoogle
+{
+    background-color: var(--Blanc);
+    color: var(--Noir);
+    border: var(--Grisclair) solid;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+.signGoogle img
+{
+    padding-right: 5px;
+    width: 20px;
+    vertical-align: middle;
+}
+/*
+{
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+}*/
+.post 
+{
+    background-color: var(--Blancopacity85);
+    position: absolute;
+    bottom: 8%;
+    right: 20%;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.comment
+{
+    color: var(--Noir);
+    font-size: 2em;
+} 
+.name
+{
+    color: var(--Noir);
+    font-size: 1.3em;
+}
